@@ -1,7 +1,6 @@
-# .github/workflows/run-tests.yml
 name: Run Tests
 
-on: [push, pull_request]  # triggers on push and PRs
+on: [push, pull_request]
 
 jobs:
   test:
